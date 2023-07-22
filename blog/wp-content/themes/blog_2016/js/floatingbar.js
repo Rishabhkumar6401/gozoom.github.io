@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery(window).on("scroll",function(){var scrollHeight=jQuery(document).height();var scrollPosition=jQuery(window).height()+jQuery(window).scrollTop();if((scrollHeight-scrollPosition)/scrollHeight===0){jQuery('.fixedbar').css('display','block');}});});
